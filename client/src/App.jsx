@@ -1,20 +1,16 @@
-import { Header } from './components/header/header'
-import { Video } from './components/video/video'
-import { Courses } from './components/courses/courses'
-import { Footer } from './components/footer/footer'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+
+
 function App() {
-
   return (
-    <div className='App'>
-      <div className="app-container">
-        <Header />
-        {/* <Video />
-        <Courses />
-        <Footer /> */}
-      </div>
-
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

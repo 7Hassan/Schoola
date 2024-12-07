@@ -1,12 +1,27 @@
-import React from "react";
-// import "header.scss"
-export const Header = () => {
-  return <div className="header-sec">
-  <h1></h1> 
-  <h1>Header</h1> 
-  <h2>Header</h2> 
-  <h3>Header</h3> 
-  <h4>Header</h4> 
-  <h5>Header</h5> 
-  </div>;
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+
+const Header = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng); // Change language dynamically
+  };
+
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li>{t('header.home')}</li>
+          <li>{t('header.about')}</li>
+          <li>{t('header.contact')}</li>
+          <li>{t('header.services')}</li>
+        </ul>
+      </nav>
+      <button onClick={() => changeLanguage('en')}>English</button>
+      <button onClick={() => changeLanguage('ar')}>العربية</button>
+    </div>
+  );
 };
+
+export default Header;
