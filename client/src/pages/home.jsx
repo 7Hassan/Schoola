@@ -4,12 +4,12 @@ import Header from '../components/header/header';
 
 const Home = () => {
   return (
-    <>
+    <div >
       <Header />
       <main>
-        <h1>مرحبًا بكم في سكولا</h1>
+
       </main>
-    </>
+    </div>
   );
 }
 

@@ -17,7 +17,7 @@ i18n
       loadPath: '/locales/{{lng}}.json', // Path to JSON files
     },
     detection: {
-      order: ['queryString', 'cookie', 'localStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
+      order: ['queryString', 'cookie', 'localStorage', 'htmlTag', 'navigator', 'path', 'subdomain'],
       caches: ['cookie'],
     },
   });

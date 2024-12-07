@@ -42,15 +42,6 @@
 
 
 
-html[lang="ar"] {
-  direction: rtl;
-  font-family: 'Cairo', sans-serif;
-}
-
-html[lang="en"] {
-  direction: ltr;
-  font-family: 'Roboto', sans-serif;
-}
 
 :root {
   font-synthesis: none;
@@ -99,6 +90,21 @@ html[lang="en"] {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+html[lang="ar"] {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+
+html[lang="en"] {
+  direction: ltr;
+  font-family: 'Roboto', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -110,27 +116,18 @@ html[lang="en"] {
 
 
 body {
-  font-family: 'Somar Rounded', sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
+  margin: auto;
   display: block;
   overflow-x: hidden !important;
-
-  color: #333;
   background-color: #fff;
   min-height: 100%;
-  margin: 0;
-  font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
+  font-weight: 500;
+  color: var(--text);
 }
 
-.body.ar {
-  direction: rtl;
-  text-align: right;
-}
+
 
 
 h1,
@@ -143,52 +140,77 @@ h1,
 h2,
 .h2 {
   font-size: 36px;
-  margin-bottom: 20px;
-  font-weight: 800;
 }
 
 h3,
 .h3 {
   font-size: 24px;
-  margin-bottom: 20px;
-  font-weight: 700;
 }
 
 h4,
 .h4 {
   font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: 600;
+
 }
 
 h5,
 .h5 {
   font-size: 15px;
-  font-weight: 500;
 }
+
+.container {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: auto;
+  justify-content: center;
+}
+
+img {
+  max-width: 70vw;
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
 
 a {
   color: var(--cus-blue);
   text-decoration: none;
   transition: var(--transition);
+  background-color: #0000;
 }
 
 a:hover {
   color: var(--cus-orange);
 }
 
-/* Button styling */
-/* button {
-  background-color: var(--cus-blue);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 1em;
+button,
+.btn {
+  border: 1px solid var(--bright-blue);
+  color: var(--bright-blue);
+  text-align: center;
+  white-space: nowrap;
+  background-color: #0000;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 1.5vw;
+  font-size: 1vw;
   font-weight: 600;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-} */
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+button.bg,
+.btn.bg {
+  background-color: var(--bright-blue);
+}
 
 button:hover {
   background-color: var(--cus-yellow);

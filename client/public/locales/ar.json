@@ -1,8 +1,15 @@
 {
   "header": {
-    "home": "الرئيسية",
-    "about": "من نحن",
-    "contact": "تواصل معنا",
-    "services": "الخدمات"
+    "logo": {
+      "alt": "Home",
+      "link": "/",
+      "image": "/icons/logo.png"
+    },
+    "navbar": [
+      { "title": "الطلاب", "link": "#home" },
+      { "title": "من نحن", "link": "#about" },
+      { "title": "الكورسات", "link": "#courses" },
+      { "title": "لماذا اسكولا", "link": "#why-schoola" }
+    ]
   }
 }

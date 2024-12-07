@@ -1,0 +1,96 @@
+header {
+  z-index: 5;
+  background-color: #fff;
+  border-bottom: 1px solid #d9ad7e26;
+  flex-flow: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding-left: 0;
+  font-weight: 400;
+  display: flex;
+  position: fixed;
+  inset: 0% 0% auto;
+
+  .container {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 88%;
+    height: 75px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    gap: 30px;
+  }
+
+  .brand {
+    background-image: none;
+    background-repeat: repeat;
+    background-size: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    display: flex;
+    bottom: 2px;
+
+    .schoola-logo {
+      object-fit: contain;
+      object-position: 0% 50%;
+      height: 40px;
+    }
+  }
+
+  .nav-menu {
+    object-fit: fill;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    display: flex;
+
+    .navlinks-wrapper {
+      grid-column-gap: 1.5vw;
+      grid-row-gap: 1.5vw;
+      justify-content: flex-start;
+      align-items: center;
+      display: flex;
+
+      .nav-link {
+        color: #1f2a55;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 75px;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 1vw;
+        font-weight: 700;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+
+        .navlink-text {
+          white-space: nowrap;
+        }
+      }
+    }
+
+    .navbtns-wrapper {
+      grid-column-gap: 1vw;
+      grid-row-gap: 1vw;
+      order: 1;
+      justify-content: flex-end;
+      align-self: center;
+      align-items: center;
+      margin-left: 0;
+      display: flex;
+    }
+  }
+}
