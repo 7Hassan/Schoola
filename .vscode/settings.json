@@ -5,7 +5,25 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true
+    "**/Thumbs.db": true,
+    "**/.gitignore": true,
+    "**/package.json": true,
+    "client/node_modules": true,
+    "**/node_modules": true,
+    "client/*.*": true,
+    "node_modules": true,
+    "**/LICENSE": true,
+    "LICENSE": true,
+    "**/README.md": true,
+    "*.md": true,
+    "README.md": true,
+    "**/*.md": true,
+    "**/package-lock.json": true,
+    "*.json": false,
+    "package-lock.json": true,
+    "**/*.json": false,
+    "**/.vscode": true,
+    ".vscode": true
   },
   "explorerExclude.backup": {}
 }

@@ -2,14 +2,123 @@
   "header": {
     "logo": {
       "alt": "Home",
-      "link": "/",
-      "image": "/icons/logo.png"
+      "link": "#hero",
+      "image": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/655a7c231e772cae143dec27_iSchool%20Logo-colors.webp"
     },
+
     "navbar": [
-      { "title": "الطلاب", "link": "#home" },
+      { "title": "الطلاب", "link": "#students" },
       { "title": "من نحن", "link": "#about" },
       { "title": "الكورسات", "link": "#courses" },
       { "title": "لماذا اسكولا", "link": "#why-schoola" }
+    ],
+    "navLink": {
+      "title": "سجل حصة مجانية",
+      "link": "#home"
+    }
+  },
+  "hero": {
+    "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/657738b257e1718c13db1fec_hero-img-png-webp.webp",
+    "heroText": "جيل اليوم <br> هم <span class='blue-bg'>قادة التكنولوجيا<span/> ",
+    "subtitle": [
+      {
+        "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/65748d7b4469ff0c24e8021f_check-icon.svg",
+        "text": "<span class='text-color'>بحضور فردى للطلاب مع المدرب مناهج</span> حصص برمجة مباشرة عبر الإنترنت"
+      },
+      {
+        "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/65748d7b4469ff0c24e8021f_check-icon.svg",
+        "text": "<span class='text-color'>بحضور فردى للطلاب مع المدرب مناهج</span> حصص برمجة مباشرة عبر الإنترنت"
+      },
+      {
+        "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/65748d7b4469ff0c24e8021f_check-icon.svg",
+        "text": "<span class='text-color'>بحضور فردى للطلاب مع المدرب مناهج</span> حصص برمجة مباشرة عبر الإنترنت"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "سجل حصة مجانية",
+        "class": "btn bg primary-btn",
+        "link": ""
+      },
+      {
+        "text": "تواصل معنا",
+        "class": "btn whatsapp",
+        "link": ""
+      }
+    ]
+  },
+  "skills": {
+    "text": "تعرف معنا على مبرمجي المستقبل",
+    "sections": [
+      {
+        "text": "أكثر من 48 أداة تطوير برمجي و تكنولوجيا احترافية في منهج واحد",
+        "icons": [
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          }
+        ]
+      },
+      {
+        "text": "أكثر من 48 أداة تطوير برمجي و تكنولوجيا احترافية في منهج واحد",
+        "icons": [
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          },
+          {
+            "text": "واجهة المستخدم",
+            "imgLink": "https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6570bdac831c28fe7ded83dd_Vectors-Wrapper.svg"
+          }
+        ]
+      }
+    ]
+  },
+  "students": {
+    "title": "",
+    "subTitle": "",
+    "secsTitle": ["Gallery", "Videos", "Projects"],
+    "sections": [
+      {
+        "text": "كل صورة تحمل رحلة تعلم",
+        "items": []
+      }
     ]
   }
 }

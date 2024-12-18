@@ -1,0 +1,61 @@
+/* Main Wrapper Styling */
+.students {
+  text-align: center;
+  padding: 20px;
+
+  .switcher {
+    margin: 20px 0;
+
+    button {
+      border: none;
+      cursor: pointer;
+
+      &.active {
+        background: #333;
+        color: #fff;
+      }
+
+      &:hover {
+        background: #555;
+        color: #fff;
+      }
+    }
+  }
+
+  .active-section {
+    min-height: 150px;
+    /* Set consistent section height */
+    margin-top: 20px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+    &.fade-in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    &.fade-out {
+      opacity: 0;
+      transform: translateY(-20px);
+      /* Animate slide-up effect */
+    }
+  }
+}
+
+/* Section-Specific Styles */
+.student-sec {
+  &.gallery {
+    background-color: lightblue;
+  }
+
+  &.videos {
+    background-color: lightgreen;
+  }
+
+  &.projects {
+    background-color: lightcoral;
+  }
+
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+}

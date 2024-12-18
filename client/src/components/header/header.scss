@@ -91,6 +91,21 @@ header {
       align-items: center;
       margin-left: 0;
       display: flex;
+
+      .btn {
+        font-size: 1.3vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      button.lang {
+        border: none !important;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        justify-content: center;
+
+      }
     }
   }
 }
